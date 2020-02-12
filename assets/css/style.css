@@ -285,6 +285,18 @@
 	height: 100px;
 }
 
+.sub_button {
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: center;
+	transition: .3s;
+	padding: 13px;
+	font-size: 13px;
+	font-weight: 500;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
 .submit-btn {
 	padding: 13px;
 	background-color: #01bfbd;
@@ -318,10 +330,18 @@
 
 .link {
 	color: #01a6a4;
-	border-bottom: 1px solid transparent;
 }
 
 .link:hover {
+	color: #01bfbd;
+}
+
+.link-foot {
+	color: #01a6a4;
+	border-bottom: 1px solid transparent;
+}
+
+.link-foot:hover {
 	color: #01bfbd;
 	border-bottom: 1px solid #ececec;
 	border-color: #01bfbd;

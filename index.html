@@ -29,6 +29,7 @@
             <p class="is-defaultText">アカウント情報</p>
           </div>
           <form class="form-content" action="#" method="POST">
+            <!-- 入力必須項目 -->
             <div class="row name-box">
               <div class="name is-halfWidth">
                 <p class="label-text">
@@ -73,6 +74,7 @@
                 </select>
               </div>
             </div>
+            <!-- 入力必須項目 -->
             <div class="row email">
               <p class="label-text">
                 Eメール
@@ -89,14 +91,14 @@
                 パスワード
                 <span class="alert">※</span>
               </p>
-              <input type="password" class="input-init input-area is-fullWidth" name="password">
+              <input type="password" class="input-init input-area is-fullWidth" name="password" required>
             </div>
             <div class="row password">
               <p class="label-text">
                 パスワード(確認用)
                 <span class="alert">※</span>
               </p>
-              <input type="password" class="input-init input-area is-fullWidth" name="password-confirm">
+              <input type="password" class="input-init input-area is-fullWidth" name="password-confirm" required>
             </div>
             <div class="row course">
               <p class="label-text">希望コース</p>
@@ -118,15 +120,15 @@
               <textarea class="input-init input-area is-fullWidth" name="remarks" placeholder="何かあればご記入ください"></textarea>
             </div>
             <div class="row">
-              <input type="submit" value="アカウント作成" class="input-init button submit-btn is-fullWidth">
+              <input type="submit" value="アカウント作成" class="input-init sub_button submit-btn is-fullWidth">
             </div>
             <p class="agreement">アカウントを作成することにより、<a class="link" href="">利用規約</a>と<a class="link" href="">プライバシーポリシー</a>に同意するものとします。</p>
           </form>
         </div>
         <div class="foot-parts">
           <p class="text">すでにアカウントをお持ちですか？
-            <a class= "link" href="">ログイン</a></p>
-          <a class="link resend-mail" href="">認証メールが届きませんか？</a>
+            <a class="link-foot" href="">ログイン</a></p>
+          <a class="link-foot resend-mail" href="">認証メールが届きませんか？</a>
         </div>
       </div>
     </section>
